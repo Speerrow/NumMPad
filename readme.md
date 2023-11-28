@@ -1,28 +1,24 @@
 # nummpad
 
-![nummpad](imgur.com image replace me!)
+Thank you for Purchasing a NumMPad
 
-*A short description of the keyboard/project*
+The Firmware Version is Currently V1.0
 
-* Keyboard Maintainer: [Matteo Iacono](https://github.com/speerrow)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+To Be Added:
+-RGB
+-RGB Control
+-3rd encoder Direction
+-Keymapping
+-Multiple Layers
 
-Make example for this keyboard (after setting up your build environment):
+The firmware is in constant work and improvement, Join our discord for updates and notifcations on the latest realeses!
 
-    make nummpad:default
+DISCORD: https://discord.gg/s3tFXPAg2q
 
-Flashing example for this keyboard:
+FLASHING YOUR OWN CODE.
 
-    make nummpad:default:flash
+The NumMPad uses a PI Pico as its controller, so you will need to flash the .UF2 file to it.
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+To flash flip the switch on the top of the NumMPad to the right and plug it back in, once the file explororer auto opens, flip the switch back to the left and drop the code you want into it.
 
-## Bootloader
-
-Enter the bootloader in 3 ways:
-
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
-4444**
+For more indepth details about the NumMPad, please look into the Documentation.
